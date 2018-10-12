@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ContactData" representedClassName="ContactData" syncable="YES" codeGenerationType="class">
+        <attribute name="cityString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactIDString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstNameString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hexColorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastNameString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumberString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stateString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="streetAddress1String" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="streetAddress2String" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zipCodeString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ContactData" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
 </model>

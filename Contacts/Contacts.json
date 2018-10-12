@@ -1,0 +1,114 @@
+{
+    "contacts": [
+        {
+            "contactID": "118",
+            "firstName": "Obama",
+            "lastName": "Barack",
+            "phoneNumber": "2024561111",
+            "streetAddress1": "Office of Barack and Michelle Obama",
+            "streetAddress2": "P.O. Box 91000",
+            "city": "Washington",
+            "state": "DC",
+            "zipCode": "20066"
+        },
+        {
+            "contactID": "185",
+            "firstName": "Pope",
+            "lastName": "The",
+            "phoneNumber": "39066982",
+            "streetAddress1": "His Holiness",
+            "streetAddress2": "Pope Francis PP.",
+            "city": "Citta del Vaticano",
+            "state": "Via del Pellegrino",
+            "zipCode": "00120"
+        },
+        {
+            "contactID": "239",
+            "firstName": "Queen Elizabeth",
+            "lastName": "",
+            "phoneNumber": "4402079304832",
+            "streetAddress1": "Her Majesty The Queen",
+            "streetAddress2": "Buckingham Palace",
+            "city": "London",
+            "state": "",
+            "zipCode": "SW1A 1AA"
+        },
+        {
+            "contactID": "294",
+            "firstName": "Lama",
+            "lastName": "The Dalai",
+            "phoneNumber": "911892221343",
+            "streetAddress1": "Temple Road P.O.",
+            "streetAddress2": "Dharamsala Himachal Pradesh",
+            "city": "Mcleodganj",
+            "state": "India",
+            "zipCode": "176219"
+        },
+        {
+            "contactID": "321",
+            "firstName": "Santa",
+            "lastName": "Claus",
+            "phoneNumber": "9512623062",
+            "streetAddress1": "Santa Claus Main Post Office",
+            "streetAddress2": "Tähtikuja 1",
+            "city": "Rovaniemi",
+            "state": "Finland",
+            "zipCode": "96930"
+        },
+        {
+            "contactID": "326",
+            "firstName": "Bill",
+            "lastName": "Gates",
+            "phoneNumber": "2067093100",
+            "streetAddress1": "",
+            "streetAddress2": "1835 73rd Ave NE",
+            "city": "Medina",
+            "state": "Washington",
+            "zipCode": "98039"
+        },
+        {
+            "contactID": "406",
+            "firstName": "Tiger",
+            "lastName": "Woods",
+            "phoneNumber": "9042853700",
+            "streetAddress1": "c/o Mark Steinberg",
+            "streetAddress2": "1700 Broadway, 29th Floor",
+            "city": "New York",
+            "state": "NY",
+            "zipCode": "10019"
+        },
+        {
+            "contactID": "466",
+            "firstName": "Oprah",
+            "lastName": "Winfrey",
+            "phoneNumber": "3126331182",
+            "streetAddress1": "Oprah G Winfrey",
+            "streetAddress2": "9901 MacArthur BLVD",
+            "city": "Oakland",
+            "state": "CA",
+            "zipCode": "94605"
+        },
+        {
+            "contactID": "867",
+            "firstName": "Bono",
+            "lastName": "",
+            "phoneNumber": "016777330",
+            "streetAddress1": "Maverick",
+            "streetAddress2": "9350 Civic Center Dr Suite 100",
+            "city": "Beverly Hills",
+            "state": "CA",
+            "zipCode": "90210-3629"
+        },
+        {
+            "contactID": "961",
+            "firstName": "Donald",
+            "lastName": "Trump",
+            "phoneNumber": "2128322000",
+            "streetAddress1": "The White House",
+            "streetAddress2": "1600 Pennsylvania Avenue NW",
+            "city": "Washington",
+            "state": "DC",
+            "zipCode": "20500"
+        }
+    ]
+}

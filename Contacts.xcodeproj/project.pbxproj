@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		471DBB362170B4A100436857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DBB352170B4A100436857 /* AppDelegate.swift */; };
-		471DBB382170B4A100436857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DBB372170B4A100436857 /* ViewController.swift */; };
 		471DBB3B2170B4A100436857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471DBB392170B4A100436857 /* Main.storyboard */; };
 		471DBB3E2170B4A100436857 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 471DBB3C2170B4A100436857 /* Contacts.xcdatamodeld */; };
 		471DBB402170B4A200436857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471DBB3F2170B4A200436857 /* Assets.xcassets */; };
 		471DBB432170B4A200436857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471DBB412170B4A200436857 /* LaunchScreen.storyboard */; };
+		471DBB4B2170B57900436857 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DBB4A2170B57900436857 /* Constants.swift */; };
+		471DBB4E2170B8E200436857 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 471DBB4C2170B8E200436857 /* SF-Pro-Text-Bold.otf */; };
+		471DBB4F2170B8E200436857 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 471DBB4D2170B8E200436857 /* SF-Pro-Text-Regular.otf */; };
+		471DBB512170C1BE00436857 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DBB502170C1BE00436857 /* Extensions.swift */; };
+		471DBB552170C22C00436857 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DBB542170C22C00436857 /* ListViewController.swift */; };
+		471DBB592170C26200436857 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DBB582170C26200436857 /* DetailsViewController.swift */; };
+		471DBB5B2170DA7400436857 /* SF-Pro-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 471DBB5A2170DA7400436857 /* SF-Pro-Text-LightItalic.otf */; };
+		47BBF9F22170EB3F0070DB7B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBF9F12170EB3F0070DB7B /* ListTableViewCell.swift */; };
+		47BBF9F42170F3510070DB7B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBF9F32170F3510070DB7B /* AddViewController.swift */; };
+		47BBF9F62171041A0070DB7B /* Contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 47BBF9F52171041A0070DB7B /* Contacts.json */; };
+		47BBF9F8217131670070DB7B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBF9F7217131670070DB7B /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		471DBB322170B4A100436857 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		471DBB352170B4A100436857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		471DBB372170B4A100436857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		471DBB3A2170B4A100436857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		471DBB3D2170B4A100436857 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
 		471DBB3F2170B4A200436857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		471DBB422170B4A200436857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		471DBB442170B4A200436857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471DBB4A2170B57900436857 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		471DBB4C2170B8E200436857 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		471DBB4D2170B8E200436857 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		471DBB502170C1BE00436857 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		471DBB542170C22C00436857 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		471DBB582170C26200436857 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		471DBB5A2170DA7400436857 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		47BBF9F12170EB3F0070DB7B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		47BBF9F32170F3510070DB7B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		47BBF9F52171041A0070DB7B /* Contacts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contacts.json; sourceTree = "<group>"; };
+		47BBF9F7217131670070DB7B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +77,21 @@
 			isa = PBXGroup;
 			children = (
 				471DBB352170B4A100436857 /* AppDelegate.swift */,
-				471DBB372170B4A100436857 /* ViewController.swift */,
+				471DBB4A2170B57900436857 /* Constants.swift */,
+				471DBB502170C1BE00436857 /* Extensions.swift */,
+				471DBB542170C22C00436857 /* ListViewController.swift */,
+				47BBF9F12170EB3F0070DB7B /* ListTableViewCell.swift */,
+				47BBF9F7217131670070DB7B /* CircleView.swift */,
+				47BBF9F32170F3510070DB7B /* AddViewController.swift */,
+				471DBB582170C26200436857 /* DetailsViewController.swift */,
 				471DBB392170B4A100436857 /* Main.storyboard */,
-				471DBB3F2170B4A200436857 /* Assets.xcassets */,
 				471DBB412170B4A200436857 /* LaunchScreen.storyboard */,
+				471DBB3F2170B4A200436857 /* Assets.xcassets */,
+				471DBB4C2170B8E200436857 /* SF-Pro-Text-Bold.otf */,
+				471DBB4D2170B8E200436857 /* SF-Pro-Text-Regular.otf */,
+				471DBB5A2170DA7400436857 /* SF-Pro-Text-LightItalic.otf */,
 				471DBB442170B4A200436857 /* Info.plist */,
+				47BBF9F52171041A0070DB7B /* Contacts.json */,
 				471DBB3C2170B4A100436857 /* Contacts.xcdatamodeld */,
 			);
 			path = Contacts;
@@ -126,7 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				471DBB432170B4A200436857 /* LaunchScreen.storyboard in Resources */,
+				471DBB4F2170B8E200436857 /* SF-Pro-Text-Regular.otf in Resources */,
 				471DBB402170B4A200436857 /* Assets.xcassets in Resources */,
+				47BBF9F62171041A0070DB7B /* Contacts.json in Resources */,
+				471DBB4E2170B8E200436857 /* SF-Pro-Text-Bold.otf in Resources */,
+				471DBB5B2170DA7400436857 /* SF-Pro-Text-LightItalic.otf in Resources */,
 				471DBB3B2170B4A100436857 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471DBB382170B4A100436857 /* ViewController.swift in Sources */,
+				47BBF9F8217131670070DB7B /* CircleView.swift in Sources */,
 				471DBB362170B4A100436857 /* AppDelegate.swift in Sources */,
+				47BBF9F22170EB3F0070DB7B /* ListTableViewCell.swift in Sources */,
+				47BBF9F42170F3510070DB7B /* AddViewController.swift in Sources */,
 				471DBB3E2170B4A100436857 /* Contacts.xcdatamodeld in Sources */,
+				471DBB4B2170B57900436857 /* Constants.swift in Sources */,
+				471DBB592170C26200436857 /* DetailsViewController.swift in Sources */,
+				471DBB552170C22C00436857 /* ListViewController.swift in Sources */,
+				471DBB512170C1BE00436857 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
