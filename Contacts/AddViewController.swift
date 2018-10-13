@@ -41,6 +41,18 @@ class AddViewController: UIViewController {
         idView.backgroundColor = UIColor.getRandomColor(int: Int(intString)!)
         
         hideKeyboardWhenTappedAround()
+        
+        // Observe keyboard change.
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Remove itself from observer.
+        NotificationCenter.default.removeObserver(self)
     }
     
     // MARK: Actions
@@ -59,6 +71,16 @@ class AddViewController: UIViewController {
     
     @IBAction func tapNextButton(_ sender: UIButton) {
         // FIXME: Add logic.
+    }
+    
+    // MARK: Selectors
+    
+    @objc func keyboardWillShow(notification: NSNotification) {
+        
+    }
+    
+    @objc func keyboardWillHide(notification: NSNotification) {
+        
     }
     
     // MARK: Helper func
@@ -91,11 +113,13 @@ extension AddViewController: UITextFieldDelegate {
     // MARK: UITextFieldDelegate
     
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        // Setup toolbarView for textField.
         textField.inputAccessoryView = toolbarView
         return true
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
         // Jump to next textField.
         if let nextField = textField.superview?.viewWithTag(textField.tag + 1) as? UITextField {
             nextField.becomeFirstResponder()

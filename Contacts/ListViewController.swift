@@ -103,8 +103,7 @@ class ListViewController: UIViewController {
             let contacts = try context.fetch(ContactData.fetchRequest())
             self.contactsArray = contacts as? [ContactData]
             self.tableView.reloadData()
-        }
-        catch {
+        } catch {
             print("Fetching failed.")
         }
     }
